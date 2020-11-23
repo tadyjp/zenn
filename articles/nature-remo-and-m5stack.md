@@ -2,7 +2,7 @@
 title: "Nature Remo と M5Stack で自宅の電力と気温のグラフを家族で見る"
 emoji: "🔨"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["zenn"]
+topics: ["m5stack", "natureremo"]
 published: true
 ---
 
