@@ -101,4 +101,4 @@ exit $EXIT_STATUS
 
 Vite なら、 https://github.com/mitsuhiko/vite-console-forward-plugin をいれる。
 
-(本当は、同じものを作ろうとしてたが、先駆者がいた。ぐぬぬ。)
+(本当は、同じものを作ろうとしてたが、先駆者がいた。)
