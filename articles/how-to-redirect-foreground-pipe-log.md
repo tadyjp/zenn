@@ -10,7 +10,7 @@ published: true
 
 標準出力・エラーをログファイルに書き出しつつ、もとのままターミナルにも出力するため、開発体験を損なわず、かつ Claude Code に認識してもらいやすい。
 
-![](./how-to-redirect-foreground-redirect-log/image.png)
+![](/images/how-to-redirect-foreground-redirect-log/image.png)
 
 ## スクリプト
 
