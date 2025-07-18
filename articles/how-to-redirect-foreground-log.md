@@ -1,8 +1,8 @@
 ---
-title: "ローカルのサーバーログを Claude Code に読ませる"
+title: "ローカルのサーバーログを Claude Code / Gemini CLI に読ませる"
 emoji: "🔨"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["ai", "claudecode", "vite"]
+topics: ["ai", "claudecode", "gemini", "vite"]
 published: true
 ---
 
