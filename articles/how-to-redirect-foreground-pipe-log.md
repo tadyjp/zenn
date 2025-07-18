@@ -6,23 +6,23 @@ topics: ["ai", "claudecode", "vite"]
 published: true
 ---
 
-[Vite](https://ja.vite.dev/) など、フォアグラウンドで起動するプロセスのログを、Claude Code や gemini 等に見てもらいたいときに使うコマンド。
+[Vite](https://ja.vite.dev/) など、フォアグラウンドで起動するプロセスのログを、Claude Code や Gemini CLI 等に見てもらいたいときに使うコマンド。
 
 標準出力・エラーをログファイルに書き出しつつ、もとのままターミナルにも出力するため、開発体験を損なわず、かつ Claude Code に認識してもらいやすい。
 
-![](./pipe-log/image.png)
+![](./how-to-redirect-foreground-redirect-log/image.png)
 
 ## スクリプト
 
-以下のコードをお好きな場所へ (./bin/pipe-log など)
+以下のコードをお好きな場所へ (./bin/redirect-log など)
 
 
 ```shell
 #!/bin/bash
 
-# pipe-log: 画面にカラー表示しつつ、ログファイルにプレーンテキストで記録
-# 使用方法: ./bin/pipe-log -- command [args...]
-# 例: ./bin/pipe-log -- npm run dev
+# redirect-log: 画面にカラー表示しつつ、ログファイルにプレーンテキストで記録
+# 使用方法: ./bin/redirect-log -- command [args...]
+# 例: ./bin/redirect-log -- npm run dev
 
 # 引数チェック
 if [ "$1" != "--" ]; then
@@ -93,7 +93,7 @@ exit $EXIT_STATUS
 ## 実行方法
 
 ```shell
-./bin/pipe-log -- npm run dev
+./bin/redirect-log -- npm run dev
 ```
 
 
